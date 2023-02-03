@@ -19,6 +19,6 @@ if [[ $site_online == 0 ]]; then
 		git add *.csv
 		git add archive/*.csv
 		git commit -m "beep boop automated update" --author="Amun Analytics Bot <frank@amunanalytics.eu>"
-		#git push
+		git push
 	fi
 fi
